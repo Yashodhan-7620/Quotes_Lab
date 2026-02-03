@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(238, 173, 94);
+
+}
+#quote-cont{
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 15px rgba(20,20,20,1);
+    padding:10px;
+    margin:300px 400px 0px 400px;
+    border-radius:8px;
+}
+#quote{
+    color:coral;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}   
+div > h1,p{
+    text-align:center;
+}
+button{
+    margin-left:700px;
+    position:fixed;
+    background:linear-gradient(20deg, rgb(196, 87, 87),rgb(188, 255, 255));
+    border: 2px solid black;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+    margin-top:20px;
+    transition: boxshadow 10ms;
+}
+button:hover{
+    box-shadow: 5px 5px 5px rgba(20,20,20,1);
+}
+button:active{
+    color:white;
+  
+    background: linear-gradient(0deg,black,black);
+}
